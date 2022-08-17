@@ -936,6 +936,9 @@ C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\stamp\_Convert
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\resizetizer\r\drawable\logo.png
+C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\CommunityToolkit.Mvvm.pdb
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\System.Data.dll
@@ -944,4 +947,3 @@ C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\android\assets\System.Xml.dll
-C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-android\resizetizer\r\drawable\logo.png

@@ -213,7 +213,6 @@ C:\Users\sutha022\source\repos\Todo\Todo\bin\Debug\net6.0-ios\iossimulator-x64\l
 C:\Users\sutha022\source\repos\Todo\Todo\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\sutha022\source\repos\Todo\Todo\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\sutha022\source\repos\Todo\Todo\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\mauisplash.inputs
@@ -257,3 +256,5 @@ C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\r
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\Todo.pdb
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\Todo.genruntimeconfig.cache
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\ref\Todo.dll
+C:\Users\sutha022\source\repos\Todo\Todo\bin\Debug\net6.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
+C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.png

@@ -252,3 +252,5 @@ C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-maccatalyst\maccatalys
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Todo.pdb
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\Todo.genruntimeconfig.cache
 C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\ref\Todo.dll
+C:\Users\sutha022\source\repos\Todo\Todo\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
+C:\Users\sutha022\source\repos\Todo\Todo\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logo.png
