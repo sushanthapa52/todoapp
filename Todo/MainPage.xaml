@@ -4,8 +4,6 @@
              x:Class="Todo.MainPage"
              xmlns:viewmodel="clr-namespace:Todo.ViewModel"
              x:DataType="viewmodel:MainViewModel">
-                
-
     <Grid RowDefinitions="100, Auto, *"
           ColumnDefinitions=".75*, .25*"
           Padding="10"
@@ -20,7 +18,7 @@
                PlaceholderColor="Black"  
                Text="{Binding Text}"
                Grid.Row="1"/>
-        
+
 
         <Button Text="Add"
                 Command="{Binding AddCommand}"
@@ -30,37 +28,34 @@
         <CollectionView Grid.Row="2" Grid.ColumnSpan="2"
                         ItemsSource="{Binding Items}"
                         SelectionMode="None">
-     
+
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type x:String}">
                     <SwipeView>
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem Text="Delete"
+                                           
                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}},Path=DeleteCommand}"
                                             CommandParameter="{Binding .}"
                                            BackgroundColor="Red"/>
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid Padding="0,5">
-                        <Frame>
+                            <Frame>
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}},Path=TapCommand}"
                                             CommandParameter="{Binding .}"/>
                                 </Frame.GestureRecognizers>
-                            <Label Text="{Binding .}"
+                                <Label Text="{Binding .}"
                                    FontSize="24"/>
-                        </Frame>
-                        
-                    </Grid>
+                            </Frame>
+
+                        </Grid>
                     </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-
-
-
     </Grid>
-
 
 </ContentPage>

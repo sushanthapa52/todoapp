@@ -6,6 +6,7 @@ public partial class AppShell : Shell
 	{
 		InitializeComponent();
 		Routing.RegisterRoute(nameof(DetailPage), typeof(DetailPage));
-		Routing.RegisterRoute(nameof(HelloXamlPage), typeof(HelloXamlPage));
-	}
+        Routing.RegisterRoute(nameof(MoreDetailsPage), typeof(MoreDetailsPage));
+
+    }
 }

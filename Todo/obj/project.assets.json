@@ -33862,11 +33862,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sutha022\\source\\repos\\Todo\\Todo\\Todo.csproj",
+      "projectUniqueName": "C:\\Users\\sutha022\\Desktop\\TodoApp\\todoapp\\Todo\\Todo.csproj",
       "projectName": "Todo",
-      "projectPath": "C:\\Users\\sutha022\\source\\repos\\Todo\\Todo\\Todo.csproj",
+      "projectPath": "C:\\Users\\sutha022\\Desktop\\TodoApp\\todoapp\\Todo\\Todo.csproj",
       "packagesPath": "C:\\Users\\sutha022\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sutha022\\source\\repos\\Todo\\Todo\\obj\\",
+      "outputPath": "C:\\Users\\sutha022\\Desktop\\TodoApp\\todoapp\\Todo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

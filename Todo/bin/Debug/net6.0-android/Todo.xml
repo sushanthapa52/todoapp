@@ -4,8 +4,17 @@
         <name>Todo</name>
     </assembly>
     <members>
+        <member name="F:Todo.DetailPage.saveDetailsCommand">
+            <summary>The backing field for <see cref="P:Todo.DetailPage.SaveDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Todo.DetailPage.SaveDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Todo.DetailPage.SaveDetails"/>.</summary>
+        </member>
         <member name="P:Todo.ViewModel.DetailViewModel.Text">
             <inheritdoc cref="F:Todo.ViewModel.DetailViewModel.text"/>
+        </member>
+        <member name="P:Todo.ViewModel.DetailViewModel.Value">
+            <inheritdoc cref="F:Todo.ViewModel.DetailViewModel.value"/>
         </member>
         <member name="F:Todo.ViewModel.DetailViewModel.goBackCommand">
             <summary>The backing field for <see cref="P:Todo.ViewModel.DetailViewModel.GoBackCommand"/>.</summary>
@@ -13,11 +22,11 @@
         <member name="P:Todo.ViewModel.DetailViewModel.GoBackCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Todo.ViewModel.DetailViewModel.GoBack"/>.</summary>
         </member>
-        <member name="F:Todo.ViewModel.DetailViewModel.helloXamlCommand">
-            <summary>The backing field for <see cref="P:Todo.ViewModel.DetailViewModel.HelloXamlCommand"/>.</summary>
+        <member name="F:Todo.ViewModel.DetailViewModel.saveDetailsCommand">
+            <summary>The backing field for <see cref="P:Todo.ViewModel.DetailViewModel.SaveDetailsCommand"/>.</summary>
         </member>
-        <member name="P:Todo.ViewModel.DetailViewModel.HelloXamlCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Todo.ViewModel.DetailViewModel.HelloXaml"/>.</summary>
+        <member name="P:Todo.ViewModel.DetailViewModel.SaveDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Todo.ViewModel.DetailViewModel.SaveDetails(System.String)"/>.</summary>
         </member>
         <member name="P:Todo.ViewModel.MainViewModel.Items">
             <inheritdoc cref="F:Todo.ViewModel.MainViewModel.items"/>
@@ -42,6 +51,9 @@
         </member>
         <member name="P:Todo.ViewModel.MainViewModel.TapCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Todo.ViewModel.MainViewModel.Tap(System.String)"/>.</summary>
+        </member>
+        <member name="P:Todo.ViewModel.MoreDetailsViewModel.Value">
+            <inheritdoc cref="F:Todo.ViewModel.MoreDetailsViewModel.value"/>
         </member>
     </members>
 </doc>

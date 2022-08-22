@@ -7,19 +7,35 @@
              Title="DetailPage"
              >
     <StackLayout Padding="30">
-        <Label 
+        <Entry 
             Text="{Binding Text}"
             FontSize="25"
             VerticalOptions="Center" 
             HorizontalOptions="Start" />
 
-      
-      
-        <Button Text="go to next page"
-                
-            
-                Command="{Binding HelloXamlCommand}"/>
+        <Label Text="Choose deadline:"
+               Margin="0,30"
+               />
+        
+
+        <DatePicker 
+            MinimumDate="01/01/2022"
+            MaximumDate="12/31/2022"
+            Date="06/21/2022" />
+
+        <Button Text="Save Details."
+                Command="{Binding SaveDetailsCommand}"/>
+
+
+
+
+
+
+
+
         <Button Text="Go back"
+                Margin="60" 
+                
                 Command="{Binding GoBackCommand}"/>
     </StackLayout>
 </ContentPage>

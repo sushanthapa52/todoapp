@@ -22,6 +22,9 @@ public static class MauiProgram
         builder.Services.AddTransient<DetailPage>();
         builder.Services.AddTransient<DetailViewModel>();
 
+		builder.Services.AddTransient<MoreDetailsPage>();
+		builder.Services.AddTransient<MoreDetailsViewModel>();
+
         return builder.Build();
 	}
 }

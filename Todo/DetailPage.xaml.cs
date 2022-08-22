@@ -1,3 +1,4 @@
+using CommunityToolkit.Mvvm.Input;
 using Todo.ViewModel;
 
 namespace Todo;
@@ -10,19 +11,16 @@ public partial class DetailPage : ContentPage
 		InitializeComponent();
 		BindingContext = vm;
 
-        // just adding one buttom to see another method of navigating to the next page
-        //Button button = new Button
-        //{
-        //    Text = "Navigate!",
-        //    HorizontalOptions = LayoutOptions.Center,
-        //    VerticalOptions = LayoutOptions.Center
-        //};
-
-        //button.Clicked += async (sender, args) =>
-        //{
-        //    await Navigation.PushAsync(new HelloXamlPage());
-        //};
-
-        //Content = button;
+      
     }
+
+	[RelayCommand]
+	async Task SaveDetails()
+	{
+
+        //            await Shell.Current.GoToAsync($"{nameof(DetailPage)}?Text={s}");
+
+    }
+
+
 }

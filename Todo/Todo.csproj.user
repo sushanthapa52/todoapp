@@ -11,7 +11,7 @@
     <MauiXaml Update="DetailPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="HelloXamlPage.xaml">
+    <MauiXaml Update="MoreDetailsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

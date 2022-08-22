@@ -26,6 +26,8 @@ namespace Todo.ViewModel
         [ObservableProperty]
         string text;
 
+    
+
         [RelayCommand]
         async void Add()
         {
@@ -36,7 +38,7 @@ namespace Todo.ViewModel
                 await Shell.Current.DisplayAlert("uh oh!", "No Internet", "OK");
             }
 
-            Items.Add(text);    
+            Items.Add(Text);    
             //add our item
             Text = string.Empty;
         }
