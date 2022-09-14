@@ -1,1 +1,1 @@
-C:\Users\sutha022\source\repos\Todo\Todo\Todo.csproj;x64
+C:\Users\sutha022\Desktop\TodoApp\todoapp\Todo\Todo.csproj;x64

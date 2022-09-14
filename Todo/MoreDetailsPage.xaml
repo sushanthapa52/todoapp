@@ -11,6 +11,10 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
+        <Label Text="{Binding Text}"/>
+
+        <Label Text="{Binding DateTime}"/>
+
         <Label Text="{Binding Value}"/>
     </VerticalStackLayout>
 </ContentPage>

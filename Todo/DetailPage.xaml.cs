@@ -14,13 +14,4 @@ public partial class DetailPage : ContentPage
       
     }
 
-	[RelayCommand]
-	async Task SaveDetails()
-	{
-
-        //            await Shell.Current.GoToAsync($"{nameof(DetailPage)}?Text={s}");
-
-    }
-
-
 }

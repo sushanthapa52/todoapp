@@ -5,12 +5,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Todo.ViewModel
-{
+namespace Todo.ViewModel;
+
     [QueryProperty("Text","Text")]
-    public partial class MoreDetailsViewModel: ObservableObject
+    [QueryProperty("DateTime","DateTime")]
+
+[QueryProperty("Value", "Value")]
+
+public partial class MoreDetailsViewModel: ObservableObject
     {
+    [ObservableProperty]
+    string text;
+
+        [ObservableProperty]
+        string dateTime;
+
         [ObservableProperty]
         string value;
     }
-}
+

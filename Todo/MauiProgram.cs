@@ -19,11 +19,14 @@ public static class MauiProgram
 		builder.Services.AddSingleton<MainPage>();
 		builder.Services.AddSingleton<MainViewModel>();
 
-        builder.Services.AddTransient<DetailPage>();
-        builder.Services.AddTransient<DetailViewModel>();
+        builder.Services.AddSingleton<DetailPage>();
+        builder.Services.AddSingleton<DetailViewModel>();
 
-		builder.Services.AddTransient<MoreDetailsPage>();
-		builder.Services.AddTransient<MoreDetailsViewModel>();
+		builder.Services.AddSingleton<MoreDetailsPage>();
+		builder.Services.AddSingleton<MoreDetailsViewModel>();
+
+        builder.Services.AddTransient<DeadlinePage>();
+        builder.Services.AddTransient<DeadlineViewModel>();
 
         return builder.Build();
 	}

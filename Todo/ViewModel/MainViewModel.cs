@@ -26,7 +26,13 @@ namespace Todo.ViewModel
         [ObservableProperty]
         string text;
 
-    
+        [ObservableProperty]
+        DateTime dateTime;
+
+
+
+
+
 
         [RelayCommand]
         async void Add()
@@ -57,5 +63,10 @@ namespace Todo.ViewModel
             await Shell.Current.GoToAsync($"{nameof(DetailPage)}?Text={s}");
 
         }
+        //[RelayCommand]
+        //async Task Deadline(DateOnly dateOnly)
+        //{
+        //    await Shell.Current.GoToAsync($"{nameof(DeadlinePage)}? DateTime={dateOnly}");
+        //}
     }
 }

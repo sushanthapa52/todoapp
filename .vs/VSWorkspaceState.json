@@ -2,8 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Todo",
+    "\\Todo\\Platforms",
+    "\\Todo\\Platforms\\Android",
+    "\\Todo\\Properties",
+    "\\Todo\\Resources",
+    "\\Todo\\Resources\\AppIcon",
+    "\\Todo\\Resources\\Styles",
     "\\Todo\\ViewModel"
   ],
-  "SelectedNode": "\\Todo\\MainPage.xaml",
+  "SelectedNode": "\\Todo\\MauiProgram.cs",
   "PreviewInSolutionExplorer": false
 }

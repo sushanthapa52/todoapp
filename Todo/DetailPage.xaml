@@ -12,6 +12,11 @@
             FontSize="25"
             VerticalOptions="Center" 
             HorizontalOptions="Start" />
+        <Label Text="Enter anytext"
+               FontSize="30"/>
+        <Entry
+            Text="{Binding Value}"
+             FontSize="25"/>
 
         <Label Text="Choose deadline:"
                Margin="0,30"
@@ -21,18 +26,11 @@
         <DatePicker 
             MinimumDate="01/01/2022"
             MaximumDate="12/31/2022"
-            Date="06/21/2022" />
+            Date="{Binding DateTime}" 
+            />
 
         <Button Text="Save Details."
-                Command="{Binding SaveDetailsCommand}"/>
-
-
-
-
-
-
-
-
+                Command="{Binding SaveDetailsCommand}" />
         <Button Text="Go back"
                 Margin="60" 
                 

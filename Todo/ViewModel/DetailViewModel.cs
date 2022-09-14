@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Collections.Generic;
 
 namespace Todo.ViewModel;
 
@@ -11,8 +12,16 @@ public partial class DetailViewModel : ObservableObject
     [ObservableProperty]
     string text;
 
+
+
+    [ObservableProperty]
+    DateTime dateTime;
+
+
+
     [ObservableProperty]
     string value;
+
 
 
 
@@ -23,13 +32,20 @@ public partial class DetailViewModel : ObservableObject
     }
 
     [RelayCommand]
-    async Task SaveDetails(string s)
+    async Task SaveDetails()
     {
-        await Shell.Current.GoToAsync($"{nameof(MoreDetailsPage)}?Text={s}");
+        var DateTime = new Dictionary<string, object>
+        {
+
+            { "DateTime", dateTime.ToString() },
+            { "Value", value.ToString() },
+
+        };
+   
+        await Shell.Current.GoToAsync($"{nameof(MoreDetailsPage)}?Text={Text}", DateTime);
     }
+
+
+
 }
- 
-
-    
-
 
