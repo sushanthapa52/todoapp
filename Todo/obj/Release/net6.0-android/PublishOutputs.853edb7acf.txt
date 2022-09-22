@@ -1,0 +1,3 @@
+C:\Users\sutha022\Desktop\TodoApp\todoapp\Todo\bin\Release\net6.0-android\publish\com.companyname.todo-Signed.aab
+C:\Users\sutha022\Desktop\TodoApp\todoapp\Todo\bin\Release\net6.0-android\publish\com.companyname.todo.aab
+C:\Users\sutha022\Desktop\TodoApp\todoapp\Todo\bin\Release\net6.0-android\publish\com.companyname.todo-Signed.apk
